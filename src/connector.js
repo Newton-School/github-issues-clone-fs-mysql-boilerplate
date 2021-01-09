@@ -1,6 +1,6 @@
 
 var mysql = require('mysql');
-
+const { data } = require('./data')
 
 var con = mysql.createConnection({
     host: "localhost",
